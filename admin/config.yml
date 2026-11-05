@@ -1,0 +1,131 @@
+# Configuration du tableau de bord de l'UNPECA
+# À MODIFIER AVANT LA MISE EN LIGNE : remplacez unpecahumanitaire-lab/unpeca-site
+# par le nom de votre dépôt GitHub (voir GUIDE-MISE-EN-LIGNE.md).
+backend:
+  name: github
+  repo: unpecahumanitaire-lab/unpeca-site
+  branch: main
+
+locale: fr
+site_url: /
+media_folder: assets/uploads
+public_folder: assets/uploads
+
+collections:
+  - name: contenu
+    label: Contenu du site
+    files:
+      # ------------------------------------------------------------ ACTUALITÉS
+      - name: actualites
+        label: Actualités
+        file: content/actualites.json
+        fields:
+          - label: Actualités
+            name: items
+            widget: list
+            summary: "{{fields.date}} — {{fields.title_fr}}"
+            fields:
+              - { label: Date, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+              - { label: Titre (français), name: title_fr, widget: string }
+              - { label: Titre (anglais), name: title_en, widget: string, required: false }
+              - { label: Résumé court (français), name: summary_fr, widget: text }
+              - { label: Résumé court (anglais), name: summary_en, widget: text, required: false }
+              - { label: Texte complet (français), name: body_fr, widget: text, required: false, hint: "Facultatif. Un paragraphe par ligne." }
+              - { label: Texte complet (anglais), name: body_en, widget: text, required: false }
+              - { label: Photo, name: image, widget: image, required: false }
+
+      # ------------------------------------------------------------ PROJETS
+      - name: projets
+        label: Projets
+        file: content/projets.json
+        fields:
+          - label: Projets
+            name: items
+            widget: list
+            summary: "{{fields.title_fr}}"
+            fields:
+              - { label: Titre (français), name: title_fr, widget: string }
+              - { label: Titre (anglais), name: title_en, widget: string, required: false }
+              - { label: Description (français), name: description_fr, widget: text }
+              - { label: Description (anglais), name: description_en, widget: text, required: false }
+              - { label: Photo, name: image, widget: image, required: false }
+
+      # ------------------------------------------------------------ GALERIE
+      - name: galerie
+        label: Galerie photos et vidéos
+        file: content/galerie.json
+        fields:
+          - label: Photos
+            name: photos
+            widget: list
+            required: false
+            summary: "{{fields.caption_fr}}"
+            fields:
+              - { label: Photo, name: image, widget: image }
+              - { label: Légende (français), name: caption_fr, widget: string, required: false }
+              - { label: Légende (anglais), name: caption_en, widget: string, required: false }
+          - label: Vidéos YouTube
+            name: videos
+            widget: list
+            required: false
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Lien YouTube, name: youtube_url, widget: string, hint: "Collez le lien de la vidéo (ex. https://www.youtube.com/watch?v=...)" }
+              - { label: Titre, name: title, widget: string, required: false }
+
+      # ------------------------------------------------------------ ÉQUIPE
+      - name: equipe
+        label: Équipe
+        file: content/equipe.json
+        fields:
+          - label: Membres
+            name: items
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { label: Nom, name: name, widget: string }
+              - { label: Fonction (français), name: role_fr, widget: string }
+              - { label: Fonction (anglais), name: role_en, widget: string, required: false }
+              - { label: Photo, name: photo, widget: image, required: false }
+              - { label: Courte présentation (français), name: bio_fr, widget: text, required: false }
+              - { label: Courte présentation (anglais), name: bio_en, widget: text, required: false }
+
+      # ------------------------------------------------------------ PARTENAIRES
+      - name: partenaires
+        label: Partenaires
+        file: content/partenaires.json
+        fields:
+          - label: Partenaires
+            name: items
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - { label: Nom, name: name, widget: string }
+              - { label: Logo, name: logo, widget: image, required: false }
+              - { label: Site internet, name: url, widget: string, required: false }
+
+      # ------------------------------------------------------------ DOCUMENTS
+      - name: documents
+        label: Documents à télécharger
+        file: content/documents.json
+        fields:
+          - label: Documents
+            name: items
+            widget: list
+            summary: "{{fields.title_fr}}"
+            fields:
+              - { label: Titre (français), name: title_fr, widget: string }
+              - { label: Titre (anglais), name: title_en, widget: string, required: false }
+              - { label: Description (français), name: description_fr, widget: text, required: false }
+              - { label: Description (anglais), name: description_en, widget: text, required: false }
+              - { label: Fichier (PDF, Word…), name: file, widget: file, media_folder: documents, public_folder: documents }
+
+      # ------------------------------------------------------------ RÉSEAUX SOCIAUX
+      - name: reglages
+        label: Réseaux sociaux
+        file: content/reglages.json
+        fields:
+          - { label: Facebook (lien complet), name: facebook, widget: string, required: false }
+          - { label: YouTube (lien complet), name: youtube, widget: string, required: false }
+          - { label: LinkedIn (lien complet), name: linkedin, widget: string, required: false }
+          - { label: Instagram (lien complet), name: instagram, widget: string, required: false }
