@@ -7,7 +7,7 @@ backend:
   branch: main
 
 locale: fr
-site_url: /
+site_url: https://unpecahumanitaire-lab.github.io/unpeca-site/
 media_folder: assets/uploads
 public_folder: assets/uploads
 
