@@ -1,6 +1,26 @@
 {
   "photos": [
     {
+      "image": "assets/uploads/deplaces-aide-materielle.jpg",
+      "caption_fr": "Aide matérielle remise aux personnes déplacées : nattes, seaux, bassines, moustiquaires, lampes rechargeables et batteries externes.",
+      "caption_en": "Material aid given to displaced people: mats, buckets, basins, mosquito nets, rechargeable lamps and power banks."
+    },
+    {
+      "image": "assets/uploads/deplaces-remise-kit.jpg",
+      "caption_fr": "Remise d'un kit d'aide à un déplacé accueilli à Kalaban-Coro Plateau.",
+      "caption_en": "Handover of an aid kit to a displaced person hosted in Kalaban-Coro Plateau."
+    },
+    {
+      "image": "assets/uploads/deplaces-ecoute.jpg",
+      "caption_fr": "Temps d'écoute et d'échange avec les personnes accueillies.",
+      "caption_en": "Listening and discussion session with the people we host."
+    },
+    {
+      "image": "assets/uploads/deplaces-suivi.jpg",
+      "caption_fr": "Rencontre de suivi avec les familles accueillies.",
+      "caption_en": "Follow-up meeting with the hosted families."
+    },
+    {
       "image": "assets/uploads/yap-commune5-table-ronde.jpg",
       "caption_fr": "Table-ronde en commune 5 de Bamako, le 7 août 2021.",
       "caption_en": "Round table in Commune 5 of Bamako, 7 August 2021."

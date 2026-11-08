@@ -1,6 +1,17 @@
 {
   "items": [
     {
+      "title_fr": "Accueil et accompagnement de personnes déplacées internes à Kalaban-Coro Plateau",
+      "title_en": "Hosting and supporting internally displaced people in Kalaban-Coro Plateau",
+      "location": "Kalaban-Coro Plateau, Bamako",
+      "period": "Depuis le 11 juin 2025",
+      "description_fr": "Accueil de 25 personnes déplacées, dont 10 enfants, 10 femmes et des personnes âgées, avec vivres, vêtements, matériel et écoute, jusqu'à leur réinsertion.",
+      "description_en": "Hosting of 25 displaced people, including 10 children, 10 women and elderly people, with food, clothing, supplies and listening, until their reintegration.",
+      "body_fr": "Depuis le 11 juin 2025, l'UNPECA a accueilli à Kalaban-Coro Plateau 25 personnes déplacées internes : 10 enfants, 10 femmes et des personnes âgées, vulnérables et en détresse.\nFace à l'urgence, l'association a lancé un appel à la solidarité. Grâce à l'élan de générosité reçu, les premiers bénéficiaires ont reçu des vivres, des vêtements, des nattes, des batteries externes, des lampes rechargeables, des bassines et baignoires, des seaux, des moustiquaires et, surtout, de l'écoute.\nLes personnes ont été hébergées pendant plusieurs mois, jusqu'à leur réinsertion. Aujourd'hui, elles vont bien et vivent librement et dignement.\nChaque geste a compté : vivres, couchage, habits, hygiène, soins et appui financier. Ensemble, nous avons redonné espoir à celles et ceux qui avaient tout perdu.",
+      "body_en": "Since 11 June 2025, UNPECA has hosted 25 internally displaced people in Kalaban-Coro Plateau: 10 children, 10 women and elderly people, all vulnerable and in distress.\nFaced with the emergency, the association launched a call for solidarity. Thanks to the generosity received, the first beneficiaries were given food, clothing, mats, power banks, rechargeable lamps, basins and tubs, buckets, mosquito nets and, above all, someone to listen.\nThey were hosted for several months until their reintegration. Today they are doing well and living freely and with dignity.\nEvery gesture counted: food, bedding, clothes, hygiene, care and financial support. Together, we gave hope back to those who had lost everything.",
+      "image": "assets/uploads/deplaces-aide-materielle.jpg"
+    },
+    {
       "title_fr": "Action de la jeunesse pour la paix : rôles et responsabilités des acteurs locaux sur le vivre ensemble",
       "title_en": "Youth Action for Peace: roles and responsibilities of local actors in living together",
       "location": "Bamako, communes 1, 4, 5 et 6",
