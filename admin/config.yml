@@ -26,6 +26,8 @@ collections:
             summary: "{{fields.date}} — {{fields.title_fr}}"
             fields:
               - { label: Date, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+              - { label: Lieu, name: location, widget: string, required: false, hint: "Ex. : Kalaban-Coro, Bamako" }
+              - { label: Catégorie, name: category, widget: select, options: ["Activité", "Événement", "Annonce", "Partenariat", "Témoignage"], required: false }
               - { label: Titre (français), name: title_fr, widget: string }
               - { label: Titre (anglais), name: title_en, widget: string, required: false }
               - { label: Résumé court (français), name: summary_fr, widget: text }
