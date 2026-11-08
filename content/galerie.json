@@ -1,6 +1,36 @@
 {
   "photos": [
     {
+      "image": "assets/uploads/foot-match.jpg",
+      "caption_fr": "Un duel de la phase finale du tournoi « Foot pour grandir en paix », format Maracana 1 contre 1.",
+      "caption_en": "A duel in the final stage of the “Football to Grow Up in Peace” tournament, 1-vs-1 Maracana format."
+    },
+    {
+      "image": "assets/uploads/foot-public.jpg",
+      "caption_fr": "Le public et les équipes autour du terrain de rue, rue du Complexe scolaire Tamba Doumbia.",
+      "caption_en": "Spectators and teams around the street pitch, in the street of the Tamba Doumbia school complex."
+    },
+    {
+      "image": "assets/uploads/foot-terrain.jpg",
+      "caption_fr": "Une ambiance chaleureuse : familles, supporters et jeunes autour du terrain.",
+      "caption_en": "A warm atmosphere: families, supporters and young people around the pitch."
+    },
+    {
+      "image": "assets/uploads/foot-officiels.jpg",
+      "caption_fr": "Les officiels et invités à la cérémonie, devant les lots et le trophée.",
+      "caption_en": "Officials and guests at the ceremony, in front of the prizes and the trophy."
+    },
+    {
+      "image": "assets/uploads/foot-message-paix.jpg",
+      "caption_fr": "« Promouvoir la paix, la cohésion sociale et le vivre-ensemble à travers le sport » : le message du projet.",
+      "caption_en": "“Promoting peace, social cohesion and living together through sport”: the project's message."
+    },
+    {
+      "image": "assets/uploads/foot-ortm.jpg",
+      "caption_fr": "Un représentant de l'UNPECA répond aux questions de l'ORTM.",
+      "caption_en": "A UNPECA representative answers ORTM's questions."
+    },
+    {
       "image": "assets/uploads/deplaces-aide-materielle.jpg",
       "caption_fr": "Aide matérielle remise aux personnes déplacées : nattes, seaux, bassines, moustiquaires, lampes rechargeables et batteries externes.",
       "caption_en": "Material aid given to displaced people: mats, buckets, basins, mosquito nets, rechargeable lamps and power banks."
