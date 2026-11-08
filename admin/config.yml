@@ -48,9 +48,13 @@ collections:
             fields:
               - { label: Titre (français), name: title_fr, widget: string }
               - { label: Titre (anglais), name: title_en, widget: string, required: false }
-              - { label: Description (français), name: description_fr, widget: text }
-              - { label: Description (anglais), name: description_en, widget: text, required: false }
-              - { label: Photo, name: image, widget: image, required: false }
+              - { label: Lieu, name: location, widget: string, required: false }
+              - { label: Période, name: period, widget: string, required: false, hint: "Ex. : Août 2021" }
+              - { label: Résumé court (français), name: description_fr, widget: text }
+              - { label: Résumé court (anglais), name: description_en, widget: text, required: false }
+              - { label: Texte complet (français), name: body_fr, widget: text, required: false, hint: "Facultatif. Un paragraphe par ligne." }
+              - { label: Texte complet (anglais), name: body_en, widget: text, required: false }
+              - { label: Photo principale, name: image, widget: image, required: false }
 
       # ------------------------------------------------------------ GALERIE
       - name: galerie

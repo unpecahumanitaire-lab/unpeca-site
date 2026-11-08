@@ -1,4 +1,50 @@
 {
-  "photos": [],
+  "photos": [
+    {
+      "image": "assets/uploads/yap-commune5-table-ronde.jpg",
+      "caption_fr": "Table-ronde en commune 5 de Bamako, le 7 août 2021.",
+      "caption_en": "Round table in Commune 5 of Bamako, 7 August 2021."
+    },
+    {
+      "image": "assets/uploads/yap-commune1-table-ronde.jpg",
+      "caption_fr": "Table-ronde en commune 1 de Bamako, le 21 août 2021.",
+      "caption_en": "Round table in Commune 1 of Bamako, 21 August 2021."
+    },
+    {
+      "image": "assets/uploads/yap-commune6-panel.jpg",
+      "caption_fr": "Panel de la table-ronde en commune 6 de Bamako, le 28 août 2021.",
+      "caption_en": "Panel of the round table in Commune 6 of Bamako, 28 August 2021."
+    },
+    {
+      "image": "assets/uploads/yap-acteurs-locaux.jpg",
+      "caption_fr": "Des acteurs locaux réunis autour de la paix et du vivre ensemble (CNJ, CAFO, RECOTRAD…).",
+      "caption_en": "Local actors gathered around peace and living together (CNJ, CAFO, RECOTRAD…)."
+    },
+    {
+      "image": "assets/uploads/yap-societe-civile.jpg",
+      "caption_fr": "Société civile et leaders religieux musulmans et chrétiens à la table-ronde.",
+      "caption_en": "Civil society and Muslim and Christian religious leaders at the round table."
+    },
+    {
+      "image": "assets/uploads/yap-signature-manuel.jpg",
+      "caption_fr": "Signature du manuel de fonctionnement du comité de suivi et de veille.",
+      "caption_en": "Signing of the operating manual of the monitoring and watch committee."
+    },
+    {
+      "image": "assets/uploads/yap-public.jpg",
+      "caption_fr": "Le public de la table-ronde : débats et questions-réponses.",
+      "caption_en": "The round-table audience: discussions and Q&A."
+    },
+    {
+      "image": "assets/uploads/yap-photo-de-famille.jpg",
+      "caption_fr": "Photo de famille à l'issue d'une table-ronde.",
+      "caption_en": "Group photo at the end of a round table."
+    },
+    {
+      "image": "assets/uploads/yap-ouverture.jpg",
+      "caption_fr": "Ouverture d'une table-ronde du projet « Action de la jeunesse pour la paix ».",
+      "caption_en": "Opening of a round table of the “Youth Action for Peace” project."
+    }
+  ],
   "videos": []
 }

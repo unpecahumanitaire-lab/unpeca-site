@@ -256,3 +256,7 @@ nav.main a.cta-btn:hover,nav.main a.cta-btn[aria-current="page"]{background:var(
   .topbar .tb-left a+a::before{display:none}
   nav.main a.cta-btn{margin:6px 0 0;text-align:center}
 }
+
+.news-card.wide{grid-column:1/-1;flex-direction:row}
+.news-card.wide .thumb{flex:0 0 42%;align-self:flex-start;aspect-ratio:4/3;min-height:0}
+@media (max-width:760px){.news-card.wide{flex-direction:column}.news-card.wide .thumb{flex:none;aspect-ratio:16/9;min-height:0}}
