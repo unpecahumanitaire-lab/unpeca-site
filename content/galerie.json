@@ -1,6 +1,26 @@
 {
   "photos": [
     {
+      "image": "assets/uploads/sante-affiche-1.jpg",
+      "caption_fr": "Journée de consultation médicale gratuite et don de médicaments, le 6 septembre 2025 à Kalaban-Coro Plateau.",
+      "caption_en": "Free medical consultation and medicine donation day, 6 September 2025, in Kalaban-Coro Plateau."
+    },
+    {
+      "image": "assets/uploads/sante-equipe-medicale.jpg",
+      "caption_fr": "L'équipe médicale et les bénévoles à l'accueil des patients.",
+      "caption_en": "The medical team and volunteers welcoming patients."
+    },
+    {
+      "image": "assets/uploads/sante-enregistrement.jpg",
+      "caption_fr": "Une bénévole de l'UNPECA enregistre les personnes venues consulter.",
+      "caption_en": "A UNPECA volunteer registers the people who came for a consultation."
+    },
+    {
+      "image": "assets/uploads/sante-affiche-2.jpg",
+      "caption_fr": "Une initiative de l'UNPECA à l'occasion de la Journée internationale de la charité.",
+      "caption_en": "An initiative of UNPECA on the occasion of the International Day of Charity."
+    },
+    {
       "image": "assets/uploads/foot-match.jpg",
       "caption_fr": "Un duel de la phase finale du tournoi « Foot pour grandir en paix », format Maracana 1 contre 1.",
       "caption_en": "A duel in the final stage of the “Football to Grow Up in Peace” tournament, 1-vs-1 Maracana format."
