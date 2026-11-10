@@ -1,6 +1,36 @@
 {
   "photos": [
     {
+      "image": "assets/uploads/ramadan-distribution-vivres.jpg",
+      "caption_fr": "Remise de vivres à des familles pendant le mois de Ramadan 2026.",
+      "caption_en": "Food distribution to families during the month of Ramadan 2026."
+    },
+    {
+      "image": "assets/uploads/ramadan-vivres.jpg",
+      "caption_fr": "Les vivres essentiels préparés pour les familles : sucre, thé et autres denrées.",
+      "caption_en": "Essential food supplies prepared for families: sugar, tea and other staples."
+    },
+    {
+      "image": "assets/uploads/ramadan-viande-remise.jpg",
+      "caption_fr": "Remise de viande de bœuf à la veille de l'Aïd el-Fitr.",
+      "caption_en": "Beef handed over on the eve of Eid al-Fitr."
+    },
+    {
+      "image": "assets/uploads/ramadan-viande-benevoles.jpg",
+      "caption_fr": "Distribution de viande de bœuf, à la veille de l'Aïd el-Fitr.",
+      "caption_en": "Beef distribution on the eve of Eid al-Fitr."
+    },
+    {
+      "image": "assets/uploads/ramadan-viande-familles.jpg",
+      "caption_fr": "Des bénéficiaires et un membre de l'équipe lors de la distribution de viande.",
+      "caption_en": "Beneficiaries and a team member during the meat distribution."
+    },
+    {
+      "image": "assets/uploads/ramadan-echanges.jpg",
+      "caption_fr": "Temps d'échange avec les bénéficiaires avant la remise des vivres.",
+      "caption_en": "Time spent talking with beneficiaries before the food was handed out."
+    },
+    {
       "image": "assets/uploads/peaceconnect-delegation.jpg",
       "caption_fr": "Une partie de la délégation malienne devant l'installation du forum Peace Connect, à Nairobi.",
       "caption_en": "Part of the Malian delegation in front of the Peace Connect forum sign, in Nairobi."
