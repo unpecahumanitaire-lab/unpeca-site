@@ -1,6 +1,61 @@
 {
   "photos": [
     {
+      "image": "assets/uploads/scolaire-consignes.jpg",
+      "caption_fr": "Un animateur d'UNPECA donne les consignes aux joueurs avant les matchs.",
+      "caption_en": "An UNPECA facilitator briefs the players before the matches."
+    },
+    {
+      "image": "assets/uploads/scolaire-duel-filles.jpg",
+      "caption_fr": "Un duel 1 contre 1 entre deux joueuses : les filles ont joué toute leur part dans la compétition.",
+      "caption_en": "A 1-on-1 duel between two players: girls played their full part in the competition."
+    },
+    {
+      "image": "assets/uploads/scolaire-match-filles.jpg",
+      "caption_fr": "Un match entre filles dans les ruelles du Complexe scolaire Tamba Doumbia.",
+      "caption_en": "A girls' match in the alleys of the Tamba Doumbia school complex."
+    },
+    {
+      "image": "assets/uploads/scolaire-match-public.jpg",
+      "caption_fr": "Un match suivi par les élèves, dans un esprit de fair-play.",
+      "caption_en": "A match watched by pupils, in a spirit of fair play."
+    },
+    {
+      "image": "assets/uploads/scolaire-ouverture.jpg",
+      "caption_fr": "Les équipes et les élèves réunis avant le début des rencontres.",
+      "caption_en": "The teams and pupils gathered before the matches began."
+    },
+    {
+      "image": "assets/uploads/scolaire-organisation.jpg",
+      "caption_fr": "L'équipe d'organisation et l'encadrement échangent entre deux matchs.",
+      "caption_en": "The organising team and coaches talk between matches."
+    },
+    {
+      "image": "assets/uploads/scolaire-encadrement.jpg",
+      "caption_fr": "Suivi de la compétition par l'équipe d'organisation.",
+      "caption_en": "The organising team following the competition."
+    },
+    {
+      "image": "assets/uploads/ecole-foot-match-filles.jpg",
+      "caption_fr": "Un match de la compétition de football 1 contre 1 interclasse, au Complexe scolaire Tamba Doumbia.",
+      "caption_en": "A match from the 1-on-1 inter-class football competition at the Complexe scolaire Tamba Doumbia."
+    },
+    {
+      "image": "assets/uploads/ecole-foot-duel.jpg",
+      "caption_fr": "Les filles ont disputé plusieurs matchs durant toute la compétition.",
+      "caption_en": "The girls played several matches throughout the competition."
+    },
+    {
+      "image": "assets/uploads/ecole-foot-public.jpg",
+      "caption_fr": "Le public de la cour du complexe scolaire suit les matchs.",
+      "caption_en": "Spectators in the school courtyard follow the matches."
+    },
+    {
+      "image": "assets/uploads/ecole-foot-organisation.jpg",
+      "caption_fr": "L'équipe d'organisation et les participants échangent entre deux matchs.",
+      "caption_en": "The organising team and participants talk between matches."
+    },
+    {
       "image": "assets/uploads/ramadan-distribution-vivres.jpg",
       "caption_fr": "Remise de vivres à des familles pendant le mois de Ramadan 2026.",
       "caption_en": "Food distribution to families during the month of Ramadan 2026."
