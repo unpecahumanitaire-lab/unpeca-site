@@ -1,6 +1,16 @@
 {
   "photos": [
     {
+      "image": "assets/uploads/peaceconnect-delegation.jpg",
+      "caption_fr": "Une partie de la délégation malienne devant l'installation du forum Peace Connect, à Nairobi.",
+      "caption_en": "Part of the Malian delegation in front of the Peace Connect forum sign, in Nairobi."
+    },
+    {
+      "image": "assets/uploads/peaceconnect-salle.jpg",
+      "caption_fr": "La salle plénière du forum mondial Peace Connect, Nairobi, 13–17 octobre 2025.",
+      "caption_en": "The plenary hall of the Peace Connect global forum, Nairobi, 13–17 October 2025."
+    },
+    {
       "image": "assets/uploads/voixdepaix-mobilisation-foule.jpg",
       "caption_fr": "Grande mobilisation artistique pour la paix, rue du Complexe scolaire Tamba Doumbia, Kalaban-Coro Plateau.",
       "caption_en": "Great artistic mobilisation for peace, rue du Complexe scolaire Tamba Doumbia, Kalaban-Coro Plateau."
