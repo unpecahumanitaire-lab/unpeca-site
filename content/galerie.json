@@ -1,6 +1,31 @@
 {
   "photos": [
     {
+      "image": "assets/uploads/maracana-ramadan-equipe.jpg",
+      "caption_fr": "Une équipe et l'encadrement d'UNPECA avant un match du Maracana des Lumières du Ramadan, en soirée.",
+      "caption_en": "A team and UNPECA's staff before a match of the Maracana of the Lights of Ramadan, in the evening."
+    },
+    {
+      "image": "assets/uploads/maracana-ramadan-equipes.jpg",
+      "caption_fr": "Des équipes alignées sous les lumières de la rue du Complexe scolaire Tamba Doumbia.",
+      "caption_en": "Teams lined up under the lights of rue du Complexe scolaire Tamba Doumbia."
+    },
+    {
+      "image": "assets/uploads/maracana-ramadan-groupe.jpg",
+      "caption_fr": "Les joueurs réunis avant le coup d'envoi.",
+      "caption_en": "Players gathered before kick-off."
+    },
+    {
+      "image": "assets/uploads/maracana-ramadan-consignes.jpg",
+      "caption_fr": "Avant les rencontres, le rappel des règles et des valeurs du tournoi.",
+      "caption_en": "Before the matches, a reminder of the tournament's rules and values."
+    },
+    {
+      "image": "assets/uploads/maracana-ramadan-public.jpg",
+      "caption_fr": "Joueurs et supporters rassemblés autour du terrain, à la tombée de la nuit.",
+      "caption_en": "Players and supporters gathered around the pitch at nightfall."
+    },
+    {
       "image": "assets/uploads/citoyenne-famille.jpg",
       "caption_fr": "Photo de famille des participants à la Journée citoyenne de reboisement et d'assainissement, devant le siège d'UNPECA.",
       "caption_en": "Family photo of the participants in the Citizen Day of Tree Planting and Sanitation, in front of UNPECA's office."
