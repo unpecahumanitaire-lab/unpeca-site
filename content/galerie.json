@@ -1,6 +1,26 @@
 {
   "photos": [
     {
+      "image": "assets/uploads/citoyenne-famille.jpg",
+      "caption_fr": "Photo de famille des participants à la Journée citoyenne de reboisement et d'assainissement, devant le siège d'UNPECA.",
+      "caption_en": "Family photo of the participants in the Citizen Day of Tree Planting and Sanitation, in front of UNPECA's office."
+    },
+    {
+      "image": "assets/uploads/citoyenne-balayage.jpg",
+      "caption_fr": "Nettoyage collectif de la rue Tamba Doumbia, à Kalaban-Coro Plateau.",
+      "caption_en": "Collective cleaning of rue Tamba Doumbia, in Kalaban-Coro Plateau."
+    },
+    {
+      "image": "assets/uploads/citoyenne-dechets.jpg",
+      "caption_fr": "Ramassage des déchets lors de l'opération d'assainissement.",
+      "caption_en": "Collecting waste during the sanitation operation."
+    },
+    {
+      "image": "assets/uploads/citoyenne-plantation.jpg",
+      "caption_fr": "Plantation d'un arbre, dans le cadre de la journée de reboisement.",
+      "caption_en": "Planting a tree during the tree-planting day."
+    },
+    {
       "image": "assets/uploads/scolaire-consignes.jpg",
       "caption_fr": "Un animateur d'UNPECA donne les consignes aux joueurs avant les matchs.",
       "caption_en": "An UNPECA facilitator briefs the players before the matches."
