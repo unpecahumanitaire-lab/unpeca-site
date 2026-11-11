@@ -1,6 +1,41 @@
 {
   "photos": [
     {
+      "image": "assets/uploads/livre-equipe-auteure.jpg",
+      "caption_fr": "L'auteure Mama dite Mady KEBE (au centre-droit) entourée de l'équipe organisatrice, lors du lancement de « Murmures nocturnes ».",
+      "caption_en": "Author Mama dite Mady KEBE with the organising team at the launch of “Murmures nocturnes”."
+    },
+    {
+      "image": "assets/uploads/livre-photo-officielle.jpg",
+      "caption_fr": "Photo officielle des autorités, partenaires et invités au CSTDK, le 14 mai 2026.",
+      "caption_en": "Official photo of authorities, partners and guests at CSTDK, 14 May 2026."
+    },
+    {
+      "image": "assets/uploads/livre-allocution.jpg",
+      "caption_fr": "Allocution du Directeur Exécutif d'UNPECA, panéliste de la cérémonie d'ouverture.",
+      "caption_en": "Address by UNPECA's Executive Director, panellist at the opening ceremony."
+    },
+    {
+      "image": "assets/uploads/livre-auteure.jpg",
+      "caption_fr": "L'auteure présente son livre « Murmures nocturnes » (68 pages).",
+      "caption_en": "The author presents her book “Murmures nocturnes” (68 pages)."
+    },
+    {
+      "image": "assets/uploads/livre-prestation-artistique.jpg",
+      "caption_fr": "Une prestation artistique a rythmé la reprise des travaux.",
+      "caption_en": "An artistic performance marked the resumption of the programme."
+    },
+    {
+      "image": "assets/uploads/livre-public.jpg",
+      "caption_fr": "Un public nombreux et attentif, majoritairement féminin et jeune.",
+      "caption_en": "A large, attentive audience, mostly women and young people."
+    },
+    {
+      "image": "assets/uploads/livre-organisateurs.jpg",
+      "caption_fr": "Le Directeur Exécutif d'UNPECA et le Président du Conseil Communal de la Jeunesse de Kalaban-Coro.",
+      "caption_en": "UNPECA's Executive Director and the President of the Kalaban-Coro Communal Youth Council."
+    },
+    {
       "image": "assets/uploads/maracana-ramadan-equipe.jpg",
       "caption_fr": "Une équipe et l'encadrement d'UNPECA avant un match du Maracana des Lumières du Ramadan, en soirée.",
       "caption_en": "A team and UNPECA's staff before a match of the Maracana of the Lights of Ramadan, in the evening."
