@@ -1,6 +1,31 @@
 {
   "photos": [
     {
+      "image": "assets/uploads/sante2-collecte-sang.jpg",
+      "caption_fr": "Collecte spéciale de sang : des donneurs bénévoles pris en charge par l'équipe médicale.",
+      "caption_en": "Special blood drive: volunteer donors cared for by the medical team."
+    },
+    {
+      "image": "assets/uploads/sante2-prelevement.jpg",
+      "caption_fr": "Un prélèvement sanguin au profit des militaires blessés des FAMa.",
+      "caption_en": "A blood donation for wounded soldiers of the Malian Armed Forces (FAMa)."
+    },
+    {
+      "image": "assets/uploads/sante2-tension.jpg",
+      "caption_fr": "Prise de la tension artérielle par une soignante.",
+      "caption_en": "Blood pressure being taken by a health worker."
+    },
+    {
+      "image": "assets/uploads/sante2-donneur.jpg",
+      "caption_fr": "Un donneur affiche le sourire de la solidarité après son don.",
+      "caption_en": "A donor shows the smile of solidarity after giving blood."
+    },
+    {
+      "image": "assets/uploads/sante2-participants.jpg",
+      "caption_fr": "Les participants dans la cour du Complexe Scolaire Tamba Doumbia.",
+      "caption_en": "Participants in the courtyard of the Complexe Scolaire Tamba Doumbia."
+    },
+    {
       "image": "assets/uploads/foot2-champions.jpg",
       "caption_fr": "Les champions 2026, le Centre Révélation de Djicoroni Para, avec médailles et trophée.",
       "caption_en": "The 2026 champions, Centre Révélation de Djicoroni Para, with medals and trophy."
@@ -149,26 +174,6 @@
       "image": "assets/uploads/scolaire-encadrement.jpg",
       "caption_fr": "Suivi de la compétition par l'équipe d'organisation.",
       "caption_en": "The organising team following the competition."
-    },
-    {
-      "image": "assets/uploads/ecole-foot-match-filles.jpg",
-      "caption_fr": "Un match de la compétition de football 1 contre 1 interclasse, au Complexe scolaire Tamba Doumbia.",
-      "caption_en": "A match from the 1-on-1 inter-class football competition at the Complexe scolaire Tamba Doumbia."
-    },
-    {
-      "image": "assets/uploads/ecole-foot-duel.jpg",
-      "caption_fr": "Les filles ont disputé plusieurs matchs durant toute la compétition.",
-      "caption_en": "The girls played several matches throughout the competition."
-    },
-    {
-      "image": "assets/uploads/ecole-foot-public.jpg",
-      "caption_fr": "Le public de la cour du complexe scolaire suit les matchs.",
-      "caption_en": "Spectators in the school courtyard follow the matches."
-    },
-    {
-      "image": "assets/uploads/ecole-foot-organisation.jpg",
-      "caption_fr": "L'équipe d'organisation et les participants échangent entre deux matchs.",
-      "caption_en": "The organising team and participants talk between matches."
     },
     {
       "image": "assets/uploads/ramadan-distribution-vivres.jpg",
