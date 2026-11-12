@@ -1,6 +1,41 @@
 {
   "photos": [
     {
+      "image": "assets/uploads/foot2-champions.jpg",
+      "caption_fr": "Les champions 2026, le Centre Révélation de Djicoroni Para, avec médailles et trophée.",
+      "caption_en": "The 2026 champions, Centre Révélation de Djicoroni Para, with medals and trophy."
+    },
+    {
+      "image": "assets/uploads/foot2-attestations.jpg",
+      "caption_fr": "Photo de famille des centres de formation avec leurs attestations de participation, devant le CSTDK.",
+      "caption_en": "Family photo of the training centres with their participation certificates, in front of CSTDK."
+    },
+    {
+      "image": "assets/uploads/foot2-podium-finalistes.jpg",
+      "caption_fr": "Remise des médailles, des ballons et d'une coupe aux équipes du podium.",
+      "caption_en": "Medals, footballs and a cup presented to the podium teams."
+    },
+    {
+      "image": "assets/uploads/foot2-podium-equipe.jpg",
+      "caption_fr": "Une équipe du podium célébrée par les organisateurs et les autorités.",
+      "caption_en": "A podium team celebrated by the organisers and authorities."
+    },
+    {
+      "image": "assets/uploads/foot2-arbitre-public.jpg",
+      "caption_fr": "Une arbitre centrale et un public attentif devant la banderole officielle de la 2ᵉ édition.",
+      "caption_en": "A central referee and an attentive crowd in front of the official banner of the 2nd edition."
+    },
+    {
+      "image": "assets/uploads/foot2-officiels.jpg",
+      "caption_fr": "Organisateurs et invités suivent la cérémonie, trophée du champion sur la table.",
+      "caption_en": "Organisers and guests follow the ceremony, the champion's trophy on the table."
+    },
+    {
+      "image": "assets/uploads/foot2-reconnaissance.jpg",
+      "caption_fr": "Remise d'une attestation de reconnaissance au coach d'un centre de formation partenaire.",
+      "caption_en": "A certificate of recognition presented to the coach of a partner training centre."
+    },
+    {
       "image": "assets/uploads/livre-equipe-auteure.jpg",
       "caption_fr": "L'auteure Mama dite Mady KEBE (au centre-droit) entourée de l'équipe organisatrice, lors du lancement de « Murmures nocturnes ».",
       "caption_en": "Author Mama dite Mady KEBE with the organising team at the launch of “Murmures nocturnes”."
