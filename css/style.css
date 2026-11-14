@@ -193,7 +193,7 @@ footer.site h4{color:#fff;font-family:var(--font-display);margin:0 0 12px;font-s
   .split,.contact-grid{grid-template-columns:1fr}
   .foot-grid{grid-template-columns:1fr 1fr}
 }
-@media (max-width:1120px){
+@media (max-width:1300px){
   .burger{display:inline-flex;align-items:center;justify-content:center}
   nav.main{position:absolute;left:0;right:0;top:100%;background:#fff;border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;padding:10px 16px 16px;display:none;box-shadow:0 14px 24px rgba(20,33,63,.12)}
   nav.main.open{display:flex}
@@ -260,3 +260,30 @@ nav.main a.cta-btn:hover,nav.main a.cta-btn[aria-current="page"]{background:var(
 .news-card.wide{grid-column:1/-1;flex-direction:row}
 .news-card.wide .thumb{flex:0 0 42%;align-self:flex-start;aspect-ratio:4/3;min-height:0}
 @media (max-width:760px){.news-card.wide{flex-direction:column}.news-card.wide .thumb{flex:none;aspect-ratio:16/9;min-height:0}}
+
+/* ---------- Boutons « Faire un don » ---------- */
+:root{--don:#C2410C;--don-dark:#9A3412}
+.btn-don{display:inline-flex;align-items:center;justify-content:center;text-align:center;background:var(--don);color:#fff;border:2px solid var(--don);border-radius:8px;padding:10px 18px;font-family:inherit;font-weight:800;font-size:.9rem;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;line-height:1.15;white-space:nowrap;box-shadow:0 3px 10px rgba(194,65,12,.28);transition:background .15s,transform .15s,box-shadow .15s}
+.btn-don:hover,.btn-don:focus-visible{background:var(--don-dark);border-color:var(--don-dark);color:#fff;transform:translateY(-1px);box-shadow:0 6px 16px rgba(194,65,12,.38)}
+.btn-don:focus-visible{outline:3px solid #fff;outline-offset:2px;box-shadow:0 0 0 5px var(--don)}
+nav.main a.btn-don,footer.site a.btn-don{color:#fff;padding:10px 18px}
+nav.main a.btn-don:hover{background:var(--don-dark);color:#fff}
+.btn-don-nav{margin-left:10px}
+.btn-don-top{display:none;padding:9px 14px;font-size:.82rem;margin-left:auto}
+.btn-don-lg{font-size:1.1rem;padding:15px 30px;border-radius:10px;margin:6px 0 14px}
+.foot-don{margin:6px 0 20px}
+.foot-don h4{margin:0 0 6px;font-size:1.15rem}
+.foot-don p{margin:0;max-width:34ch;font-size:.95rem}
+.foot-follow{margin:0 0 10px;font-size:1rem}
+.num-2{margin-top:2px}
+section[id]{scroll-margin-top:96px}
+@media (max-width:1300px){
+  .btn-don-nav{display:none}
+  .btn-don-top{display:inline-flex}
+}
+@media (max-width:420px){.btn-don-top{padding:8px 10px;font-size:.74rem;letter-spacing:.03em}}
+header.site .wrap{max-width:1300px}
+nav.main a{padding:9px 8px;font-size:.92rem}
+.btn-don-nav{margin-left:6px}
+.lang{margin-left:6px}
+.btn-don-lg{font-size:1.25rem;padding:18px 40px;border-radius:10px;letter-spacing:.08em}
