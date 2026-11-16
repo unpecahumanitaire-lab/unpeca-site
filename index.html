@@ -46,9 +46,10 @@
 <main id="contenu">
 
 
+<div class="don-band"><div class="wrap"><p><strong><span class="fr">Chaque don compte.</span><span class="en">Every donation counts.</span></strong> <span class="fr">Aidez-nous à soutenir les populations vulnérables de Kalaban-Coro, de Bamako et du Mali.</span><span class="en">Help us support vulnerable people in Kalaban-Coro, Bamako and across Mali.</span></p><a href="#don-rapide"><span class="fr">Donner maintenant →</span><span class="en">Donate now →</span></a></div></div>
 <section class="hero"><div class="wrap">
   <div class="hero-text">
-    <span class="eyebrow"><span class="fr">Association malienne · Bamako</span><span class="en">Malian association · Bamako</span></span>
+    <span class="eyebrow"><span class="fr">Association malienne · Bamako · MALI</span><span class="en">Malian association · Bamako · MALI</span></span>
     <h1><span class="fr">L'égalité des chances, pour que chacun vive et s'épanouisse <span class="accent">dignement</span>.</span><span class="en">Equal opportunities, so that everyone can live and flourish <span class="accent">with dignity</span>.</span></h1>
     <p class="fr lead">L'UNPECA est une association malienne à but non lucratif, apolitique et laïque. Elle œuvre dans les domaines humanitaire, social et du développement humain en faveur des populations vulnérables et défavorisées.</p><p class="en lead">UNPECA is a Malian non-profit, non-political and secular association. It works in the humanitarian, social and human development fields for the benefit of vulnerable and disadvantaged populations.</p>
     <div class="btn-row">
@@ -69,6 +70,35 @@
   <div class="it"><small><span class="fr">Journal Officiel</span><span class="en">Official Gazette</span></small><b>N°09 <span class="fr">du</span><span class="en">of</span> 21/03/2025</b></div>
   <div class="it"><small><span class="fr">Siège</span><span class="en">Headquarters</span></small><b>Kalaban-Coro Plateau, Bamako</b></div>
   <div class="it"><small><span class="fr">Zone d'intervention</span><span class="en">Area of operation</span></small><b><span class="fr">Territoire national</span><span class="en">National territory</span></b></div>
+</div></section>
+
+<section class="block alt" id="don-rapide"><div class="wrap">
+  <div class="don-card">
+    <div class="don-intro">
+      <span class="eyebrow"><span class="fr">Faire un don</span><span class="en">Make a donation</span></span>
+      <h2><span class="fr">Chaque don compte</span><span class="en">Every donation counts</span></h2>
+      <p class="fr">Aidez-nous à soutenir les populations vulnérables de Kalaban-Coro, de Bamako et du Mali.</p><p class="en">Help us support vulnerable people in Kalaban-Coro, Bamako and across Mali.</p>
+      <p class="fr">Choisissez votre montant : à l'étape suivante, nous vous indiquons comment nous l'envoyer (virement bancaire, Orange Money, Moov Money ou Wave).</p><p class="en">Choose your amount: on the next step, we show you how to send it (bank transfer, Orange Money, Moov Money or Wave).</p>
+    </div>
+    <form class="don-form" novalidate>
+      <fieldset class="don-freq">
+        <legend class="sr-only"><span class="fr">Fréquence du don</span><span class="en">Donation frequency</span></legend>
+        <label><input type="radio" name="freq" value="once" checked><span><span class="fr">Donner une fois</span><span class="en">Give once</span></span></label>
+        <label><input type="radio" name="freq" value="monthly"><span><svg class="hsm" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 21s-7.5-4.6-9.6-9.2C.9 8.4 2.7 5 6 5c2 0 3.4 1.1 4 2.2h4C14.600 6.100 16 5 18 5c3.300 0 5.100 3.400 3.600 6.800C19.500 16.400 12 21 12 21z"/></svg><span class="fr">Mensuel</span><span class="en">Monthly</span></span></label>
+      </fieldset>
+      <div class="don-amounts" role="group" aria-label="FCFA"><button type="button" class="don-chip" data-amount="5000">5 000</button><button type="button" class="don-chip" data-amount="10000">10 000</button><button type="button" class="don-chip" data-amount="25000">25 000</button><button type="button" class="don-chip" data-amount="50000">50 000</button><button type="button" class="don-chip" data-amount="100000">100 000</button><button type="button" class="don-chip" data-amount="250000">250 000</button><button type="button" class="don-chip" data-amount="500000">500 000</button><button type="button" class="don-chip" data-amount="1000000">1 000 000</button></div>
+      <div class="don-free">
+        <label class="sr-only" for="don-amount"><span class="fr">Autre montant</span><span class="en">Other amount</span></label>
+        <input id="don-amount" type="text" inputmode="decimal" autocomplete="off" placeholder="Montant / Amount">
+        <label class="sr-only" for="don-cur"><span class="fr">Devise</span><span class="en">Currency</span></label>
+        <select id="don-cur"><option value="XOF">FCFA (XOF)</option><option value="USD">USD ($)</option><option value="EUR">EUR (&euro;)</option></select>
+      </div>
+      <p class="don-eq" id="don-eq" aria-live="polite"></p>
+      <p class="don-err" id="don-err" role="alert" hidden><span class="fr">Merci d'indiquer un montant valide.</span><span class="en">Please enter a valid amount.</span></p>
+      <button class="btn-don btn-don-lg don-go" type="submit"><span class="fr">Continuer</span><span class="en">Continue</span></button>
+      <p class="don-note"><span class="fr">Aucun paiement n'est prélevé sur ce site : vous êtes simplement dirigé vers les moyens d'envoi.</span><span class="en">No payment is taken on this site: you are simply directed to the ways of sending your gift.</span></p>
+    </form>
+  </div>
 </div></section>
 
 <section class="block"><div class="wrap split">

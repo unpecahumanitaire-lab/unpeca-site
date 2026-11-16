@@ -364,3 +364,91 @@
     });
   }
 })();
+
+/* ---- Don : choix du montant (accueil) et récapitulatif (page Agir) ---- */
+(function () {
+  var RATE_EUR = 655.957; // parité fixe FCFA / euro
+  function lang() { return document.documentElement.getAttribute("lang") === "en" ? "en" : "fr"; }
+  function num(n, l) {
+    var s = new Intl.NumberFormat(l === "en" ? "en-US" : "fr-FR", { maximumFractionDigits: 2 }).format(n);
+    return s.replace(/[\u202f\u00a0]/g, "\u00a0");
+  }
+  function money(n, c, l) {
+    var v = num(n, l);
+    if (l === "en") return c === "EUR" ? "\u20ac" + v : c === "USD" ? "$" + v : v + " FCFA";
+    return v + "\u00a0" + (c === "EUR" ? "\u20ac" : c === "USD" ? "$\u00a0US" : "FCFA");
+  }
+  function parse(v) {
+    v = String(v || "").replace(/[\s\u00a0\u202f]/g, "").replace(",", ".");
+    if (!/^\d+(\.\d{1,2})?$/.test(v)) return NaN;
+    return parseFloat(v);
+  }
+
+  var form = document.querySelector(".don-form");
+  if (form) {
+    var input = document.getElementById("don-amount"), cur = document.getElementById("don-cur"),
+        eq = document.getElementById("don-eq"), err = document.getElementById("don-err"),
+        chips = Array.prototype.slice.call(form.querySelectorAll(".don-chip"));
+    function refresh() {
+      var a = parse(input.value);
+      chips.forEach(function (b) {
+        b.setAttribute("aria-pressed", String(cur.value === "XOF" && a === parseFloat(b.getAttribute("data-amount"))));
+      });
+      eq.textContent = "";
+      if (!isNaN(a) && cur.value === "EUR") {
+        var f = Math.round(a * RATE_EUR);
+        eq.textContent = lang() === "en"
+          ? "About " + num(f, "en") + " FCFA (fixed rate: \u20ac1 = 655.957 FCFA)"
+          : "Soit environ " + num(f, "fr") + "\u00a0FCFA (parit\u00e9 fixe : 1\u00a0\u20ac = 655,957\u00a0FCFA)";
+      } else if (cur.value === "USD") {
+        eq.textContent = lang() === "en"
+          ? "For gifts in US dollars, we will guide you on the next step."
+          : "Pour un don en dollars, nous vous guidons \u00e0 l'\u00e9tape suivante.";
+      }
+      err.hidden = true;
+    }
+    chips.forEach(function (b) {
+      b.setAttribute("aria-pressed", "false");
+      b.addEventListener("click", function () {
+        cur.value = "XOF"; input.value = num(parseFloat(b.getAttribute("data-amount")), "fr"); refresh();
+      });
+    });
+    input.addEventListener("input", refresh);
+    cur.addEventListener("change", refresh);
+    document.querySelectorAll(".lang button").forEach(function (b) { b.addEventListener("click", function () { setTimeout(refresh, 0); }); });
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var a = parse(input.value);
+      if (isNaN(a) || a <= 0 || a > 1e9) { err.hidden = false; input.focus(); return; }
+      var f = form.querySelector('input[name="freq"]:checked').value;
+      window.location.href = "agir.html?a=" + encodeURIComponent(a) + "&c=" + cur.value + "&f=" + f + "#don";
+    });
+  }
+
+  var rec = document.getElementById("don-recap");
+  if (rec) {
+    var q = new URLSearchParams(window.location.search), a = parseFloat(q.get("a")),
+        c = q.get("c"), f = q.get("f");
+    if (isFinite(a) && a > 0 && a <= 1e9 && ["XOF", "EUR", "USD"].indexOf(c) > -1 && ["once", "monthly"].indexOf(f) > -1) {
+      var spans = { fr: rec.querySelectorAll(".fr"), en: rec.querySelectorAll(".en") };
+      ["fr", "en"].forEach(function (l) {
+        var fr = l === "fr", m = money(a, c, l), notes = [];
+        spans[l][0].textContent = (fr ? "Votre don : " : "Your donation: ") + m + " \u00b7 " +
+          (f === "monthly" ? (fr ? "chaque mois" : "every month") : (fr ? "une fois" : "once"));
+        if (c === "EUR") {
+          var x = num(Math.round(a * RATE_EUR), l);
+          notes.push(fr ? "Soit environ " + x + "\u00a0FCFA (parit\u00e9 fixe)." : "About " + x + " FCFA (fixed rate).");
+        }
+        if (c === "USD") notes.push(fr
+          ? "Pour un don en dollars, merci de nous contacter au +223 76 36 90 55 ou sur WhatsApp : nous vous indiquerons la meilleure fa\u00e7on de proc\u00e9der."
+          : "For a gift in US dollars, please contact us on +223 76 36 90 55 or WhatsApp: we will tell you the best way to proceed.");
+        if (f === "monthly") notes.push(fr
+          ? "Pour un don mensuel, programmez un virement permanent aupr\u00e8s de votre banque, ou renouvelez votre envoi Orange Money chaque mois."
+          : "For a monthly gift, set up a standing bank transfer, or repeat your Orange Money transfer every month.");
+        notes.push(fr ? "Choisissez ci-dessous le moyen d'envoi qui vous convient." : "Choose below the way of sending that suits you.");
+        spans[l][1].textContent = notes.join(" ");
+      });
+      rec.hidden = false;
+    }
+  }
+})();
