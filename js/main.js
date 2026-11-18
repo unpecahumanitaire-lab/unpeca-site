@@ -109,7 +109,8 @@
         var img = safeUrl(it.image);
         var thumb = h("div", { "class": "thumb" + (img && /banniere/i.test(img) ? " poster" : "") });
         if (img) thumb.style.backgroundImage = "url('" + img.replace(/'/g, "%27") + "')";
-        else thumb.appendChild(h("img", { "class": "ph", src: EMBLEM, alt: "" }));
+        if (img && /banniere/i.test(img)) { var pi = new Image(); pi.onload = function () { if (pi.naturalWidth && pi.naturalHeight) thumb.style.aspectRatio = pi.naturalWidth + " / " + pi.naturalHeight; }; pi.src = img; }
+        if (!img) thumb.appendChild(h("img", { "class": "ph", src: EMBLEM, alt: "" }));
         var body = h("div", { "class": "body" });
         var meta = h("div", { "class": "news-meta" });
         var t = h("time", {}); t.appendChild(dateBi(it.date));
