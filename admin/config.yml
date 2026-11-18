@@ -35,6 +35,7 @@ collections:
               - { label: Texte complet (français), name: body_fr, widget: text, required: false, hint: "Facultatif. Un paragraphe par ligne." }
               - { label: Texte complet (anglais), name: body_en, widget: text, required: false }
               - { label: Photo, name: image, widget: image, required: false }
+              - { label: Épingler en première position, name: pinned, widget: boolean, default: false, required: false, hint: "Garde cette carte tout en haut, avant les autres actualités." }
 
       # ------------------------------------------------------------ PROJETS
       - name: projets

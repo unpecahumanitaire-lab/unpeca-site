@@ -99,7 +99,10 @@
     load("actualites").then(function (data) {
       var items = (data && data.items) || [];
       items.sort(function (a, b) { return String(b.date).localeCompare(String(a.date)); });
+      var pinnedItems = items.filter(function (x) { return x.pinned; });
+      items = items.filter(function (x) { return !x.pinned; });
       if (limit) items = items.slice(0, limit);
+      items = pinnedItems.concat(items);
       box.textContent = "";
       if (!items.length) {
         box.appendChild(emptyBox("Aucune actualité pour le moment.", "No news yet."));
@@ -107,7 +110,7 @@
       }
       items.forEach(function (it) {
         var img = safeUrl(it.image);
-        var thumb = h("div", { "class": "thumb" + (img && /banniere/i.test(img) ? " poster" : "") });
+        var thumb = h("div", { "class": "thumb" + (img && /banniere/i.test(img) ? " poster" : "") + (it.pinned && img && /logo/i.test(img) ? " logo" : "") });
         if (img) thumb.style.backgroundImage = "url('" + img.replace(/'/g, "%27") + "')";
         if (img && /banniere/i.test(img)) { var pi = new Image(); pi.onload = function () { if (pi.naturalWidth && pi.naturalHeight) thumb.style.aspectRatio = pi.naturalWidth + " / " + pi.naturalHeight; }; pi.src = img; }
         if (!img) thumb.appendChild(h("img", { "class": "ph", src: EMBLEM, alt: "" }));
@@ -130,7 +133,7 @@
           var e = h("div", { "class": "en" }); e.appendChild(paragraphs(it.body_en || it.body_fr));
           det.appendChild(f); det.appendChild(e); body.appendChild(det);
         }
-        var card = h("article", { "class": "card news-card" }, [thumb, body]);
+        var card = h("article", { "class": "card news-card" + (it.pinned ? " pinned" : "") }, [thumb, body]);
         box.appendChild(card);
       });
     });

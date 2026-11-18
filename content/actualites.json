@@ -32,7 +32,8 @@
       "summary_en": "Find our mission, our areas of work and all our news here.",
       "body_fr": "",
       "body_en": "",
-      "image": ""
+      "image": "assets/logo-complet.png",
+      "pinned": true
     }
   ]
 }
