@@ -330,3 +330,5 @@ nav.main a{padding:9px 8px;font-size:.92rem}
   .don-free{grid-template-columns:1fr 132px}
   .don-free input,.don-free select{padding:12px 8px;font-size:1rem}
 }
+
+.news-card .thumb.poster{aspect-ratio:2576/587;background-size:cover}

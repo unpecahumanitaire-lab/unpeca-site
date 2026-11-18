@@ -107,7 +107,7 @@
       }
       items.forEach(function (it) {
         var img = safeUrl(it.image);
-        var thumb = h("div", { "class": "thumb" });
+        var thumb = h("div", { "class": "thumb" + (img && /banniere/i.test(img) ? " poster" : "") });
         if (img) thumb.style.backgroundImage = "url('" + img.replace(/'/g, "%27") + "')";
         else thumb.appendChild(h("img", { "class": "ph", src: EMBLEM, alt: "" }));
         var body = h("div", { "class": "body" });
